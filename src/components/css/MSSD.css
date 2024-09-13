@@ -1,0 +1,87 @@
+#mssendCon {
+  width: 20%;
+  position: absolute;
+  bottom: 10vh;
+  right: 15vw;
+  
+}
+
+#mssendCon .chat-box {
+  /* display: none; */
+  width: 100%;
+  height: 150px;
+  border-radius: 25px;
+  background-color: #eee;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23),inset -10px -10px white;
+}
+
+#mssendCon .chat-box .header {
+  box-shadow: inset 10px 10px lightgreen;
+  background-color: #3fda73;
+  padding: 15px;
+  border-radius: 20px 20px 0 0;
+  color: #fff;
+  font-size: 20px;
+}
+
+#mssendCon .chat-box .msg-area {
+  overflow: auto;
+  height: 100px;
+  padding: 15px;
+}
+
+#mssendCon .chat-box .msg-area .left span {
+  display: inline-block;
+  font-size: 17.5px;
+  border-radius: 15px;
+  padding: 15px;
+  background-color: #ddd;  
+}
+
+#mssendCon .chat-box .msg-area .right {
+  text-align: right;
+}
+
+#mssendCon .chat-box .msg-area .right span {
+  display: inline-block;
+  font-size: 17.5px;
+  border-radius: 15px;
+  padding: 15px;
+  background-color: #ddd;
+}
+
+#mssendCon .chat-box .paddingarea {
+  padding: 0 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#mssendCon .chat-box .paddingarea input {  
+  background-color:#ddd;
+  border: 1px solid #fff;
+  padding: 5px;
+  width: 85%; 
+  height:50%;
+}
+
+#mssendCon .chat-box .paddingarea input:focus {
+  outline: none;
+}
+
+#mssendCon .chat-box .paddingarea button {
+  top:0px;
+  border: none;
+  font-size: 22.5px;
+  color: white;
+  cursor: pointer;
+  padding-left:5px;
+  padding-right:5px;
+}
+
+
+
+
