@@ -1,0 +1,112 @@
+#msgsCon {
+  width: 20%;
+  position: absolute;
+  bottom: 10vh;
+  right: 15vw;
+}
+
+#msgsCon .chat-box {
+  /* display: none; */
+  width: 100%;
+  height: 500px;
+  border-radius: 25px;
+  background-color: #eee;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+#msgsCon .chat-box .header {
+  box-shadow: inset 0 -10px lightgreen;
+  background-color: #3fda73;
+  padding: 15px;
+  border-radius: 20px 20px 0 0;
+  color: #fff;
+  font-size: 20px;
+}
+
+#msgsCon .chat-box .msg-area { 
+  box-shadow: 0 2px 0 rgba(0,0,0,0.16),0 2px 0 rgba(0,0,0,0.16);
+  background-color: white;
+  overflow: auto;
+  height: 370px;
+  padding: 15px;
+}
+
+#msgsCon .chat-box .msg-area .left span {
+  display: inline-block;
+  font-size: 17.5px;
+  border-radius: 15px;
+  padding: 15px;
+  background-color: #ddd;  
+}
+
+#msgsCon .chat-box .msg-area .right {
+  text-align: right;
+}
+
+#msgsCon .chat-box .msg-area .right span {
+  display: inline-block;
+  font-size: 17.5px;
+  border-radius: 15px;
+  padding: 15px;
+  background-color: #ddd;
+}
+
+#msgsCon .chat-box .footer {
+  padding: 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#msgsCon .chat-box .footer input {
+  border: 1px solid #fff;
+  padding: 10px;
+  width: 80%;
+  border-radius: 15px;
+}
+
+#msgsCon .chat-box .footer input:foucs {
+  outline: none;
+}
+
+#msgsCon .chat-box .footer button {
+  border: none;
+  font-size: 22.5px;
+  color: lightgreen;
+  cursor: pointer;
+}
+
+#msgsCon .pop {
+  width: 100%;
+  height: 25%;
+  cursor: pointer;
+}
+
+#msgsCon .pop p {
+  text-align: right;
+}
+
+#msgsCon .pop img {
+  border-radius: 50%;
+  width: 25%;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .icon {
+    animation: logo-spin infinite 20s linear;
+    background:white;
+  }
+}
+
